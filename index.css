@@ -1,0 +1,138 @@
+body{
+    background-color: gray;
+}
+
+.box{
+    border: 8px solid red;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 6px 6px purple;
+}
+
+.head1{
+    width: 290px;
+    text-align: center;
+    padding: 10px 60px;
+    margin: auto;
+    color: #dc5151;
+    text-shadow: 2px 1px 2px;
+}
+
+.group1{
+    border: 10px solid #0a5c0a;
+    width: 98%;
+    height: 575px;
+}
+
+.box1{
+    width: 230px;
+    height: 200px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #3d3dad;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+.we{
+    position: relative;
+    top: 100px;
+}
+
+
+.image1{
+    position: absolute;
+    right: 100px;
+    top: 196px;
+}
+
+.form1{
+    position: absolute;
+    right: 100px;
+    top: 510px;
+}
+
+.fixed1{
+    border: 8px solid red;
+    box-shadow: 10px 10px purple;
+    border-radius: 20px;
+    background-color: greenyellow;
+    width: 500px;
+    height: 80px;
+    position: fixed;
+    top: 412px;
+    left: 33vmax;
+   /* margin-top: -600px;
+    position: fixed;
+    width: 500px;
+    height: 80px;
+    left: 33%; */
+}
+
+.card-grp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.card{
+    width: 220px;
+    font-size: 20px;
+    padding: 10px;
+    color: brown;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card1{
+    font-size: 15px;
+    width: 120px;
+    padding: 10px;
+    color: brown;
+    text-align: center;
+    font-weight: 600;
+}
+   
+.container{
+    width: 600px;
+    background-color: green;
+    border: 8px solid purple;
+    margin: auto;
+}
+
+.welcome{
+    text-align: center;
+}
+
+.box4{
+    background-color: darkkhaki;
+    width: 270px;
+    height: 200px;
+    /* margin-right: 50%; */
+    font-style: italic;
+    text-align: center;
+}
+
+
+
+.box5{
+    background-color:darkkhaki;
+    width: 270px;
+    float: right;
+    clear: right;
+    display: inline-block;
+    height: 200px;
+    font-style: italic;
+    text-align: center;
+}
+
+.box6{
+    /* position: relative;
+    top: -200px; */
+    background-color:darkkhaki;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 25px;
+}
